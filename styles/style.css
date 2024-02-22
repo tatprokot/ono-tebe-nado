@@ -33,16 +33,19 @@
   .header__links-list-item_no-bullit {
     list-style-type: none;
   }
+
+  
   
   .header__link {
     border-bottom: 1px solid #000;
     text-decoration: none;
   }
   
-  .header__link_active {
-    text-decoration: none;
-  }
   
+  .header__link_active {
+    border-bottom: none;
+  }
+
   .header__logo {
     width: 140px;
     margin: auto;
